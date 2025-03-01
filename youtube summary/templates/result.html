@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Processing Results</h1>
+        <div class="card mt-4">
+            <div class="card-header">Statistics</div>
+            <div class="card-body">
+                <p><strong>Transcript:</strong> {{ stats.transcript_chars }} characters / {{ stats.transcript_words }} words</p>
+                <p><strong>Summary:</strong> {{ stats.summary_chars }} characters / {{ stats.summary_words }} words</p>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-header">Transcript (First 500 Characters)</div>
+            <div class="card-body">
+                <p>{{ transcript[:500] }}...</p>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-header">Summary</div>
+            <div class="card-body">
+                <p>{{ summary }}</p>
+            </div>
+        </div>
+        <a href="/" class="btn btn-secondary mt-4">Go Back</a>
+    </div>
+</body>
+</html>
