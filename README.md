@@ -1,12 +1,9 @@
 # YouTube Video Summarizer
 
 ### Demo Video
-[Videoyu izlemek için tıklayın](https://github.com/kullaniciadi/depoadi/raw/main/demo.mp4)
+[YouTube'da İzle](https://www.youtube.com/watch?v=VIDEO_ID)
 
-<video controls>
-  <source src="https://github.com/kullaniciadi/depoadi/raw/main/demo.mp4" type="video/mp4">
-  Tarayıcınız videoyu oynatmayı desteklemiyor.
-</video>
+
 
 ## Overview
 This project is a Flask-based web application that downloads audio from a YouTube video, transcribes it, generates a summary, and displays relevant statistics. To run the application, you need Python, specific libraries, FFmpeg, and a virtual environment set up on your system.
@@ -230,7 +227,3 @@ C:\Users\User\youtube-summary>venv\Scripts\activate
 
 ## Support
 If you encounter issues, feel free to reach out with details—I’ll help you resolve them quickly! Good luck! 🌟
-
-
-#This is a working video of the YouTube Video Summariser project. This video is at 4x speed. 
-
