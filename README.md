@@ -1,7 +1,9 @@
 # YouTube Video Summarizer
 
 ### Demo Video
-[YouTube'da İzle](https://www.youtube.com/watch?v=VIDEO_ID)
+([Drive](https://drive.google.com/file/d/1294Xwz75NfhJOdom50WJI3DTj9B3XcmE/view?usp=sharing))
+
+# This is a working video of the YouTube Video Summariser project. This video is at 4x speed.
 
 
 
